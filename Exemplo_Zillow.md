@@ -1,7 +1,7 @@
 Zillow
 
 A Zillow, criada por Rich Barton e Lloyd Frink, ex-executivos da Microsoft, é uma empresa americana, fundada em 2004, cujo principal serviço baseia-se num marketplace de
-imobiliário online [1]. A Zillow processa uma quantidade enorme de imagens novas diariamente, desde fotos de listagem a imagens de possíveis projetos de casa. 
+imobiliário online [1]. é necessário a esta empresa processar uma quantidade enorme de imagens novas diariamente, desde fotos de listagem a imagens de possíveis projetos de casa. 
 
 À medida que a empresa aumentou em popularidade e as imagens introduzidas no website começaram a aumentar em resolução, o sistema tradicional de processamento de imagens
 da Zillow não conseguiu acompanhar a procura. O sistema era alojado em datacenters On-Premisses e as imagens em si eram fornecidas a uma rede de entrega de conteúdos
