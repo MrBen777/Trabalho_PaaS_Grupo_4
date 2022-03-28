@@ -10,3 +10,5 @@ O AWS CodePipeline pode também ser integrado facilmente com serviços de tercei
 
 O CodeDeploy difere do AWS Elastic Beanstalk pois, enquanto que o Beanstalk tenta simplificar a gestão de recursos fazendo-o pelo programador, com o CodeDeploy o 
 programador necessita de criar a sua própria infraestrutura tendo assim controlo total sobre esses recursos. 
+
+![product-page-diagram_CodePipeLine 7b8dd19eb6478b7f6f747d936c2f0b0b66757bbf](https://user-images.githubusercontent.com/102309065/160378637-321bfd32-b724-4047-b842-71e658b6c950.png)
