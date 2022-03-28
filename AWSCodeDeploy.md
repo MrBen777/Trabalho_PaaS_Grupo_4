@@ -2,7 +2,7 @@ CodeDeploy é um serviço fornecido pela AWS que automatiza a implementação de
 implementação manual propensa a erros. Este serviço pode ser utilizado para implementar qualquer tipo de aplicação, sendo que nesta plataforma determinam-se os ficheiros
 a copiar e os scripts a executar em cada instância durante o desdobramento.
 
-AWS CodeDeploy foi concebido essencialmente para programadores e administradores que necessitem de implementar aplicações em qualquer instancia, sendo que este serviço
+O AWS CodeDeploy foi concebido essencialmente para programadores e administradores que necessitem de implementar aplicações em qualquer instancia, sendo que este serviço
 facilita a um lançamento rápido de novas funcionalidades, evita paragens de tempo durante a implementação de aplicações, trata de forma automática de atualizações e
 escala-se de forma a responder às necessidades do utilizador. 
 
