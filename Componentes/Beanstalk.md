@@ -2,9 +2,11 @@
 <br>
 
 <div align="justify">
-<p>AWS Elastic Beanstalk é um serviço da AWS que permite que os programadores e engenheiros possam facilmente implementar e executar aplicações web na cloud, de uma forma que seja altamente disponível e escalável.</p>  
+<p>O AWS Elastic Beanstalk é um serviço da AWS que permite a que developers possam implementar e executar aplicações na cloud com facilidade, de uma forma que seja altamente disponível e escalável.</p>  
 
-<p>Este serviço da AWS trata da parte da implementação, provisionamento, monitorização, escalabilidade automática e gestão da nossa aplicação. Em termos de implementação, podemos fazer upload e gerir diferentes versões da aplicação, e mudar entre elas em ambientes diferentes (por exemplo, desenvolvimento, teste, ambientes de produção). Além disso, quando implementamos a nossa aplicação, o Elastic Beanstalk provisiona as instâncias necessárias, em termos de capacidade de computação, os load balancers, auto-scaling e recursos de monitorização do funcionamento das nossas aplicações. Este último ponto é bastante importante, dado que quando temos a nossa aplicação a correr em produção, o Beanstalk faz verificações regulares de funcionamento das aplicações, de forma a garantir que a mesma está a correr, sendo que se não estiver, irá tentar encontrar o erro e resolvê-lo. Podemos, também, ter acesso às métricas de monitorização do Amazon CloudWatch (contagem de pedidos, uso do CPU, entre outros).</p>    
+<p>Este serviço da AWS facilita ao utilizador toda a parte da implementação, provisionamento de recursos, monitorização, escalabilidade e gestão da aplicação. Em termos de implementação, podemos fazer upload e gerir diferentes versões da aplicação, sendo possível optar entre a utilização de versões diferentes consoante a necessidade do cliente (por exemplo poderia ser possível escolher entre versões em desenvolvimento, ou para teste). Resumidamente, quando implementamos a nossa aplicação, o Elastic Beanstalk aloca-lhe as instâncias necessárias, tanto em termos de capacidade como de computação, dando também uso a load balancers de modo a gerir o tráfego que lhe é necessário [2].</p>  
+  
+<p>Podemos, também, ter acesso à monitorização de várias métricas relevantes à infraestrutura que nos foi alocada pela plataforma através do Amazon CloudWatch (contagem de pedidos, uso do CPU, entre outros). Para além de todos estes recursos disponibilizados também é facilitada ao utilizador, uma plataforma de monitorização do funcionamento das aplicações. Este último ponto é bastante importante, dado que quando se corre aplicações em produção, o Beanstalk faz verificações regulares sobre funcionamento destas, de forma a garantir que as aplicações estão de facto a ser executadas, sendo que em caso contrário, irá tentar encontrar o erro e resolvê-lo [2].</p>  
 
 <br>
 <h3> Componentes do Elastic Beanstalk </h3>
@@ -15,43 +17,49 @@ O Elastic Beanstalk possuí vários componentes essenciais, sendo eles:
   <b><li>Versão da Aplicação</li></b>
 </ul>
 
-Versão da aplicação refere-se à aplicação web que carregou e irá carregar a sua próxima versão atualizada. Por exemplo, primeiro faz-se o upload da aplicação para AWS Beanstalk e depois atualiza-se o código fonte da aplicação. Em vez de escrever por cima da versão anterior da aplicação, pode-se dar-lhe um novo nome de versão que poderá ser utilizado para comparar ambas. A versão nomeada aparecerá como uma nova aplicação caso opte-se por implementá-la num ambiente diferente em vez de a implementar a partir de uma aplicação existente. No Elastic Beanstalk, a versão da aplicação é uma ligação a um objeto AWS S3 (Simple Storage Service) que contém o ficheiro Zip ou Java WAR implementado.  
+<p>Quando subscrevemos a um serviço de Elastic Beanstalk é requerido ao utilizador que este forneça em primeira instância, a aplicação, criada previamente, da qual se pretende fazer a implementação/deployment, sendo que posteriormente é possível criar versões novas desta de modo a proceder a atualizações ou caso seja necessário, executar a aplicação dentro de um ambiente de testes [2].</p> 
+
+  <div align="center">
+  <img src="https://user-images.githubusercontent.com/91042645/160619001-c3fac283-f147-4355-bbbb-bcf70e0df27a.PNG">
+  </div>
+  
+<p>Como exemplificado na figura acima, este processo de criação de versões pode ser compreendido, como algo a realizar iterativamente, sendo que também é possível ao cliente não rescrever a versão anterior da aplicação podendo então optar por dar-lhe um novo nome, sendo que a posteriori lhe será possível comparar ambas as versões. A versão alternativa aparecerá como uma nova aplicação caso se opte por implementá-la num ambiente diferente.</p>  
 
 <ul>
 <b><li>Aplicação</li></b>
 </ul>
  
-Uma aplicação no Beanstalk é uma coleção de ambientes, versões e eventos. No AWS Elastic Beanstalk, carrega-se a aplicação como um ficheiro zip com todo o conteúdo nela contido. Uma aplicação Elastic Beanstalk é logicamente considerada equivalente a um ficheiro contendo o código fonte. O ficheiro é a aplicação no ambiente do Elastic Beanstalk. Normalmente, pode-se criar uma aplicação para cada uma das aplicações, mas isto não é necessário. 
+<p>Uma aplicação no Beanstalk é uma coleção de ambientes, versões e eventos. No AWS Elastic Beanstalk, carrega-se a aplicação como um ficheiro zip com todo o conteúdo nela contido. Uma aplicação Elastic Beanstalk é logicamente considerada equivalente a um ficheiro contendo o código fonte. O ficheiro é a aplicação no ambiente do Elastic Beanstalk. Normalmente, pode-se criar uma aplicação para cada uma das aplicações, mas isto não é necessário.</p> 
 
 <ul>
 <b><li>Ambientes</li></b>
 </ul>
 
-Um ambiente tem uma versão implementada em instâncias específicas, load balancers, grupos de auto-scaling, entre outros. Pode-se implementar uma das versões existentes em qualquer ambiente dentro da aplicação. Tipicamente, poder-se-ia criar um ambiente para a produção e outro para testes, contudo pode-se criar os ambientes que precisamos. Um ambiente pode estar em diferentes estados de saúde: verde (OK), amarelo (não respondeu nos últimos 5 minutos), vermelho (não responde há mais de 5 minutos), cinzento (desconhecido). Sempre que é criado um ambiente, a Amazon Elastic Beanstalk provisiona automaticamente as instâncias EC2 e os S3 buckets. 
+<p>Um ambiente tem uma versão implementada em instâncias específicas, load balancers, grupos de auto-scaling, entre outros. Pode-se implementar uma das versões existentes em qualquer ambiente dentro da aplicação. Tipicamente, poder-se-ia criar um ambiente para a produção e outro para testes, contudo pode-se criar os ambientes que precisamos. Um ambiente pode estar em diferentes estados de saúde: verde (OK), amarelo (não respondeu nos últimos 5 minutos), vermelho (não responde há mais de 5 minutos), cinzento (desconhecido). Sempre que é criado um ambiente, a Amazon Elastic Beanstalk provisiona automaticamente as instâncias EC2 e os S3 buckets.</p> 
 
 <ul>
 <b><li>Nível de ambiente</li></b>
 </ul>
 
-Existem dois níveis de ambiente quando implementamos uma aplicação no Beanstalk: Ambiente do Servidor Web e Ambiente do Trabalhador. Uma aplicação que utiliza PHP ou requer pedidos HTTP é executada num Ambiente de Servidor Web. Uma aplicação que utiliza Amazon Simple Queue Service (SQS) é executada num Ambiente de Trabalho. 
+<p>Existem dois níveis de ambiente quando implementamos uma aplicação no Beanstalk: Ambiente do Servidor Web e Ambiente do Trabalhador. Uma aplicação que utiliza PHP ou requer pedidos HTTP é executada num Ambiente de Servidor Web. Uma aplicação que utiliza Amazon Simple Queue Service (SQS) é executada num Ambiente de Trabalho.</p> 
 
 <ul>
  <b><li>Configuração do ambiente</li></b>
 </ul>
 
-A configuração do ambiente é um conjunto de parâmetros como o grupo de segurança, o tipo de instância e a versão de plataforma. Se se alterar alguma configuração, o Amazon Elastic Beanstalk implementa-a de forma dinâmica, aplicando as novas alterações ou apagado e implementando novos recursos. 
+<p>A configuração do ambiente é um conjunto de parâmetros como o grupo de segurança, o tipo de instância e a versão de plataforma. Se se alterar alguma configuração, o Amazon Elastic Beanstalk implementa-a de forma dinâmica, aplicando as novas alterações ou apagado e implementando novos recursos.</p> 
 
 <ul>
 <b><li>Eventos</li></b>
 </ul>
 
-Os eventos dizem aos utilizadores o que se está a passar com os seus ambientes. Podem ser informativos, avisos ou erros, tais como "o ambiente foi lançado de forma bem-sucedida", "a instância X está a usar 90% do CPU" ou "a instância X não iniciou corretamente". Pode-se ver os eventos na web console ou pode-se obtê-los por e-mail. 
+<p>Os eventos dizem aos utilizadores o que se está a passar com os seus ambientes. Podem ser informativos, avisos ou erros, tais como "o ambiente foi lançado de forma bem-sucedida", "a instância X está a usar 90% do CPU" ou "a instância X não iniciou corretamente". Pode-se ver os eventos na web console ou pode-se obtê-los por e-mail.</p> 
 
 <ul>
 <b><li>Plataforma</li></b>
 </ul>
 
-A plataforma é a combinação de todos os componentes do AWS Beanstalk, um sistema operativo, runtime de uma linguagem de programação e um servidor web para correr a aplicação. Pode-se escolher a plataforma enquanto se cria a aplicação ou ambiente, sendo que não precisamos de a atualizar ou incluir correções de software, a AWS encarrega-se disso.  
+<p>A plataforma é a combinação de todos os componentes do AWS Beanstalk, um sistema operativo, runtime de uma linguagem de programação e um servidor web para correr a aplicação. Pode-se escolher a plataforma enquanto se cria a aplicação ou ambiente, sendo que não precisamos de a atualizar ou incluir correções de software, a AWS encarrega-se disso.</p>  
 <br>
 <h3>Vantagens</h3>
   
