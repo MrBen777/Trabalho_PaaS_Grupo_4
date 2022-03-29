@@ -1,5 +1,5 @@
 <h2 align="center"> Competidores </h2>
-
+<br>
 <div align="justify">
  
 <b>Heroku Platform</b> 
