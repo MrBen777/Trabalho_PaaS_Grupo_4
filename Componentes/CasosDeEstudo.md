@@ -1,6 +1,5 @@
 <h2 align="center"> Casos de Estudo </h2>
 <br>
-
 <h3>Zillow</h3> 
 
 <div align="justify">
