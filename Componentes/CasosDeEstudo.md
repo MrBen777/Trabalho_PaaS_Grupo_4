@@ -35,3 +35,9 @@
 <p>Os servidores da Ividata, configurados através do AWS Elastic Beanstalk, são cerca de quatro vezes mais rentáveis do que a soluções de PaaS utilizadas anteriormente, o que teve um impacto importante e imediato na flexibilidade da empresa, sendo que agora as suas despesas são muito mais inferiores do que anteriormente  [20].</p>  
   
 </div>
+
+<br>
+<div align="center">
+<p>Anterior: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Servi%C3%A7osAWS.md">Outros Serviços AWS<a> | Próximo: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Conclus%C3%A3o.md">Conclusão</a></p>
+<p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/README.md">Página Principal</a></p>
+</div>
