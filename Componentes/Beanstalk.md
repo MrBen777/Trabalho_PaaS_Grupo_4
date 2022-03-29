@@ -69,7 +69,7 @@ Antes de utilizar o Amazon Elastic Beanstalk, é necessário criar uma aplicaç�
 Não há custos aplicados ao Elastic Beanstalk no AWS separadamente, apenas paga-se pelos recursos que se utiliza para executar a aplicação. Além disso, o custo não é fixo, pode variar com o número de instâncias EC2, tamanho do bucket S3 e a configuração das instâncias da database [3].  
   
 <br>
-<h3>Vantagens [4][5]</h3>
+<h3>Vantagens </h3>
   
 <ul>
   <li>Preço acessível - O Beanstalk proporciona aos seus utilizadores infraestruturas de baixo custo, ou seja, paga-se apenas pelo que se usa e não há taxas escondidas.</li>
@@ -77,16 +77,16 @@ Não há custos aplicados ao Elastic Beanstalk no AWS separadamente, apenas paga
   <li>Fácil acesso à automatização - para a maioria dos clientes, este é o principal benefício do Beanstalk: é possível fazer o setup da infraestrutura com pouco input por parte do utilizador. 
 </li>
   <li>Custo – O Beanstalk não tem custos adicionais, apenas é necessário pagar pelos recursos que este disponibiliza. </li>
-  <li>Flexibilidade - é possível gerir manualmente qualquer aspeto dos recursos proporcionados pelo Beanstalk. </li>
+  <li>Flexibilidade - é possível gerir manualmente qualquer aspeto dos recursos proporcionados pelo Beanstalk [4][5]. </li>
 </ul>
 <br>
-<h3>Desvantagens [4][5]</h3>
+<h3>Desvantagens </h3>
   
 <ul>
   <li>Não é fácil diagnosticar falhas – O Beanstalk ao gerir tudo automaticamente, torna difícil determinar exatamente onde este errou. </li>
   <li>Deployment lento – Por vezes o provisionamento das instâncias pode ser delongado, podendo demorar entre 5 e 15 minutos.</li>
   <li>Updates da stack – Devido à sua natureza automática o Beanstalk efetua as modificações necessárias aos recursos alocados através de atualizações, o que por vezes pode causar problemas, no entanto na maioria dos casos será completamente inofensivo. </li>
-  <li>Falta de controlo detalhado – Embora existam muitas configurações padrão disponibilizadas para um projeto Beanstalk, é possível que existam casos de utilização para os quais não exista uma configuração adequada.</li>
+  <li>Falta de controlo detalhado – Embora existam muitas configurações padrão disponibilizadas para um projeto Beanstalk, é possível que existam casos de utilização para os quais não exista uma configuração adequada [4][5]. </li>
 </ul>
   
 </div>
