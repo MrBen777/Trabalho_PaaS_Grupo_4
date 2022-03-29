@@ -5,3 +5,9 @@
 
 <p>A relevância deste relatório advém de uma emergente necessidade empresarial de soluções de development dinâmicas, ágeis e simples de utilizar, que garantem assim uma maior flexibilidade tanto aos developers como às organizações que os empregam.</p> 
 </div>
+
+<br>
+<div align="center">
+<p>Próximo: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/PaaS.md">PaaS</a> | Anterior: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Resumo.md">Resumo<a></p>
+<p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/README.md">Página Principal</a></p>
+</div>
