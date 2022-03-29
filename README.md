@@ -20,6 +20,7 @@
   <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Beanstalk.md">AWS Elastic Beanstalk</a></p>
   <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Competidores.md">Competidores</a></p>
   <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Servi%C3%A7osAWS.md">Outros Serviços</a></p>
+  <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/CasosDeEstudo.md">Casos de Estudo</a></p>
   
   <hr width=20%>
   
