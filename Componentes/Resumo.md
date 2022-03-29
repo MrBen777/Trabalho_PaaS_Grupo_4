@@ -5,3 +5,7 @@
 
 <p>Com isto abordámos alguns dos principais competidores a este serviço para ter uma ideia geral do que o mercado tem para oferecer a este nível e por fim, analisamos alguns casos de sucesso que surgem de uma implementação dos serviços da AWS, incluindo o Elastic Beanstalk.</p> 
 </div>
+<br>
+<div align="center">
+<p>Próximo: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Introdução.md">Introdução</a> | Anterior: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/README.md">Página Principal<a></p>
+</div>
