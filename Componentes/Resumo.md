@@ -8,4 +8,5 @@
 <br>
 <div align="center">
 <p>Anterior: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/README.md">Página Principal<a> | Próximo: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Introdução.md">Introdução</a></p>
+<p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Bibliografia.md">Bibliografia<a></p>
 </div>
