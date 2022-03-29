@@ -51,3 +51,10 @@
 <img src="https://user-images.githubusercontent.com/102309065/160596568-120f6580-3dce-449c-b6e0-348ae9ba3b72.png">
   </div>
  </div>
+ 
+<br>
+<div align="center">
+<p>Anterior: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Competidores.md">Competidores<a> | Próximo: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/CasosDeEstudo.md">Casos de Estudo</a></p>
+<p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/README.md">Página Principal</a></p>
+</div>
+
