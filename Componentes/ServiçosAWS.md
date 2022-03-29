@@ -1,6 +1,7 @@
 <h2 align="center"> Outros Serviços AWS </h2>
 
 <div align="justify">
+<br>
 <p><b>AWS Code Deploy</b></p>
 
 <p>CodeDeploy é um serviço fornecido pela AWS que automatiza a implementação de software para uma variedade de serviços informáticos, eliminando assim a necessidade de uma implementação manual propensa a erros. Este serviço pode ser utilizado para implementar qualquer tipo de aplicação, sendo que nesta plataforma determinam-se os ficheiros a copiar e os scripts a executar em cada instância durante o desdobramento [12]. </p>
@@ -20,7 +21,7 @@
 
 <p>O que diferencia o AWS CodeDeploy do AWS Elastic Beanstalk é o facto do Beanstalk ser uma solução de gestão de apilcações ponta-a-ponta enquanto que o AWS CodeDeploy é um serviço de blocos de construção centralizado em ajudar os programadores a implementar e atualizar software em qualquer instância [12]. </p>
 
-
+<br>
   <p><b>AWS Code Pipeline</b></p>
 
 <p>AWS CodePipeline é um serviço que automatiza o processo de implementação de software, permitindo ao programador modelar, visualizar e fornecer rapidamente o código para novas funcionalidades e actualizações. Assim, o programador consegue aumentar a velocidade e a qualidade das suas actualizações de software, executando todas as novas alterações através de um conjunto coeso de verificações de qualidade. Com este serviço o pagamento é feito apenas pelo utilizado, não havendo taxas iniciais ou compromissos a longo prazo. </p>
@@ -32,7 +33,8 @@
 <p>O CodeDeploy difere do AWS Elastic Beanstalk pois, enquanto que o Beanstalk tenta simplificar a gestão de recursos fazendo-o pelo programador, com o CodeDeploy o programador necessita de criar a sua própria infraestrutura tendo assim controlo total sobre esses recursos. </p>
 
 ![product-page-diagram_CodePipeLine 7b8dd19eb6478b7f6f747d936c2f0b0b66757bbf](https://user-images.githubusercontent.com/102309065/160596428-55feafce-3f2f-4530-b5e4-2803465bb3f9.png)
-
+<br>
+<br>
 <p><b>AWS CodeStar</b></p>
 
 <p>AWS CodeStar é um serviço de desenvolvimento baseado na nuvem que disponibiliza ao utilizador ferramentas necessárias para desenvolver, construir e implementar rapidamente aplicações no AWS, oferecendo essencialmente uma interface de utilizador unificada que permite uma fácil gestão das atividades de desenvolvimento de software num só local. Com este serviço não existe nenhum custo adicional pela utilização, sendo que o utilizador paga apenas pelos recursos disponibilizados pela AWS para o desenvolvimento e execução da sua aplicação. </p>
