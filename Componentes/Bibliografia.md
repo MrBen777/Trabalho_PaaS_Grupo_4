@@ -45,4 +45,10 @@
 
 </ol>
 </div>
+
+<br>
+<div align="center">
+<p>Anterior: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Conclus%C3%A3o.md">Casos de Estudo<a> | Próximo: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/README.md">Página Principal</a></p>
+</div>
+
  
