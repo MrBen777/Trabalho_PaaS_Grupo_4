@@ -21,9 +21,9 @@
 <br>
 <li>Cloud Foundry. Suse, 2022. Disponível em: https://www.suse.com/suse-defines/definition/cloud-foundry/. Acesso em: 26/03/2022 </li>
 <br>
-<li>GCP </li>
+<li>App Engine documentation. GCP, 2022. Disponível em: https://cloud.google.com/appengine/docs. Acesso em: 26/03/2022 </li>
 <br>
-<li>Azure </li>
+<li>App Service overview. Azure, 2022. Disponível em: https://docs.microsoft.com/en-us/azure/app-service/overview. Acesso em: 26/03/2022 </li>
 <br>
 <li>AWS CodeDeploy FAQs. AWS, 2022. Disponível em: https://aws.amazon.com/pt/codedeploy/faqs/. Acesso em: 26/03/2022  </li>
 <br>
@@ -37,11 +37,11 @@
 <br>
 <li>AWS CodeStar. AWS, 2022. Disponível em: https://aws.amazon.com/codestar/?nc=sn&loc=0. Acesso em: 26/03/2022  </li>
 <br>
-<li>Zillow. Wikipedia, 2022. Disponível em: https://en.wikipedia.org/wiki/Zillow . Acesso em: 26/03/2022  </li>
+<li>Zillow. Wikipedia, 2022. Disponível em: https://en.wikipedia.org/wiki/Zillow. Acesso em: 27/03/2022  </li>
 <br>
-<li>Zillow Case Study. AWS, 2022. Disponível em: https://aws.amazon.com/solutions/case-studies/zillow/ . Acesso em: 26/03/2022  </li>
+<li>Zillow Case Study. AWS, 2022. Disponível em: https://aws.amazon.com/solutions/case-studies/zillow/. Acesso em: 27/03/2022  </li>
 <br>
-<li>AWS Case Study: Ividata. AWS, 2022. Disponível em: https://aws.amazon.com/solutions/case-studies/ividata/ . Acesso em: 26/03/2022  </li>
+<li>AWS Case Study: Ividata. AWS, 2022. Disponível em: https://aws.amazon.com/solutions/case-studies/ividata/. Acesso em: 27/03/2022  </li>
 
 </ol>
 </div>
