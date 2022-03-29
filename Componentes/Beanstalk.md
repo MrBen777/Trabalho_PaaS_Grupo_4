@@ -29,7 +29,7 @@ O Elastic Beanstalk possuí vários componentes essenciais, sendo eles:
 <b><li>Aplicação</li></b>
 </ul>
  
-<p>Uma aplicação no Beanstalk é uma coleção de ambientes, versões e eventos. No AWS Elastic Beanstalk, carrega-se a aplicação como um ficheiro zip com todo o conteúdo nela contido. Uma aplicação Elastic Beanstalk é logicamente considerada equivalente a um ficheiro contendo o código fonte. O ficheiro é a aplicação no ambiente do Elastic Beanstalk. Normalmente, pode-se criar uma aplicação para cada uma das aplicações, mas isto não é necessário [3].</p> 
+<p>Uma aplicação no Beanstalk é uma coleção de ambientes, versões e eventos. No AWS Elastic Beanstalk, carrega-se a aplicação como um ficheiro zip com todo o conteúdo nela contido. Uma aplicação Elastic Beanstalk é logicamente considerada equivalente a um ficheiro contendo o código fonte. O ficheiro é a aplicação no ambiente do Elastic Beanstalk. Normalmente, pode-se criar uma aplicação para cada uma das aplicações, mas isto não é necessário<a href="https://intellipaat.com/blog/what-is-elastic-beanstalk-in-aws"> [3]</a>.</p> 
 
 <ul>
 <b><li>Ambientes</li></b>
@@ -41,13 +41,13 @@ O Elastic Beanstalk possuí vários componentes essenciais, sendo eles:
 <b><li>Nível de ambiente</li></b>
 </ul>
 
-<p>Existem dois níveis de ambiente quando implementamos uma aplicação no Beanstalk: Ambiente do Servidor Web e Ambiente do Trabalhador. Uma aplicação que utiliza PHP ou requer pedidos HTTP é executada num Ambiente de Servidor Web. Uma aplicação que utiliza Amazon Simple Queue Service (SQS) é executada num Ambiente de Trabalho [3].</p> 
+<p>Existem dois níveis de ambiente quando implementamos uma aplicação no Beanstalk: Ambiente do Servidor Web e Ambiente do Trabalhador. Uma aplicação que utiliza PHP ou requer pedidos HTTP é executada num Ambiente de Servidor Web. Uma aplicação que utiliza Amazon Simple Queue Service (SQS) é executada num Ambiente de Trabalho <a href="https://intellipaat.com/blog/what-is-elastic-beanstalk-in-aws"> [3]</a>.</p> 
 
 <ul>
  <b><li>Configuração do ambiente</li></b>
 </ul>
 
-<p>A configuração do ambiente é um conjunto de parâmetros como o grupo de segurança, o tipo de instância e a versão de plataforma. Se se alterar alguma configuração, o Amazon Elastic Beanstalk implementa-a de forma dinâmica, aplicando as novas alterações ou apagado e implementando novos recursos [3].</p> 
+<p>A configuração do ambiente é um conjunto de parâmetros como o grupo de segurança, o tipo de instância e a versão de plataforma. Se se alterar alguma configuração, o Amazon Elastic Beanstalk implementa-a de forma dinâmica, aplicando as novas alterações ou apagado e implementando novos recursos <a href="https://intellipaat.com/blog/what-is-elastic-beanstalk-in-aws"> [3]</a>.</p> 
 
 <ul>
 <b><li>Eventos</li></b>
@@ -59,14 +59,14 @@ O Elastic Beanstalk possuí vários componentes essenciais, sendo eles:
 <b><li>Plataforma</li></b>
 </ul>
 
-<p>A plataforma é a combinação de todos os componentes do AWS Beanstalk, um sistema operativo, runtime de uma linguagem de programação e um servidor web para correr a aplicação. Pode-se escolher a plataforma enquanto se cria a aplicação ou ambiente, sendo que não precisamos de a atualizar ou incluir correções de software, a AWS encarrega-se disso [3].</p> 
+<p>A plataforma é a combinação de todos os componentes do AWS Beanstalk, um sistema operativo, runtime de uma linguagem de programação e um servidor web para correr a aplicação. Pode-se escolher a plataforma enquanto se cria a aplicação ou ambiente, sendo que não precisamos de a atualizar ou incluir correções de software, a AWS encarrega-se disso <a href="https://intellipaat.com/blog/what-is-elastic-beanstalk-in-aws"> [3]</a>.</p> 
 <br>
 <h3> Funcionamento do Elastic Beanstalk </h3>
 <br>
   
 Antes de utilizar o Amazon Elastic Beanstalk, é necessário criar uma aplicação local em qualquer plataforma, por exemplo Java, .NET, PHP, Node.js, Python, Ruby, Go,Docker, entre outros. Depois disso, tem de se criar uma aplicação em Elastic Beanstalk com um ambiente onde possa carregar a aplicação local. Em seguida, implementá-la e utilizar a URL fornecido para a lançar. 
 
-Não há custos aplicados ao Elastic Beanstalk no AWS separadamente, apenas paga-se pelos recursos que se utiliza para executar a aplicação. Além disso, o custo não é fixo, pode variar com o número de instâncias EC2, tamanho do bucket S3 e a configuração das instâncias da database [3].  
+Não há custos aplicados ao Elastic Beanstalk no AWS separadamente, apenas paga-se pelos recursos que se utiliza para executar a aplicação. Além disso, o custo não é fixo, pode variar com o número de instâncias EC2, tamanho do bucket S3 e a configuração das instâncias da database <a href="https://intellipaat.com/blog/what-is-elastic-beanstalk-in-aws"> [3]</a>.  
   
 <br>
 <h3>Vantagens </h3>
@@ -77,7 +77,7 @@ Não há custos aplicados ao Elastic Beanstalk no AWS separadamente, apenas paga
   <li>Fácil acesso à automatização - para a maioria dos clientes, este é o principal benefício do Beanstalk: é possível fazer o setup da infraestrutura com pouco input por parte do utilizador. 
 </li>
   <li>Custo – O Beanstalk não tem custos adicionais, apenas é necessário pagar pelos recursos que este disponibiliza. </li>
-  <li>Flexibilidade - é possível gerir manualmente qualquer aspeto dos recursos proporcionados pelo Beanstalk [4][5]. </li>
+  <li>Flexibilidade - é possível gerir manualmente qualquer aspeto dos recursos proporcionados pelo Beanstalk <a href="https://www.justaftermidnight247.com/insights/cloudformation-vs-elastic-beanstalk-aws-paas-and-iac-services"> [4]</a> <a href="https://data-flair.training/blogs/aws-elastic-beanstalk"> [5]</a>. </li>
 </ul>
 <br>
 <h3>Desvantagens </h3>
@@ -86,7 +86,7 @@ Não há custos aplicados ao Elastic Beanstalk no AWS separadamente, apenas paga
   <li>Não é fácil diagnosticar falhas – O Beanstalk ao gerir tudo automaticamente, torna difícil determinar exatamente onde este errou. </li>
   <li>Deployment lento – Por vezes o provisionamento das instâncias pode ser delongado, podendo demorar entre 5 e 15 minutos.</li>
   <li>Updates da stack – Devido à sua natureza automática o Beanstalk efetua as modificações necessárias aos recursos alocados através de atualizações, o que por vezes pode causar problemas, no entanto na maioria dos casos será completamente inofensivo. </li>
-  <li>Falta de controlo detalhado – Embora existam muitas configurações padrão disponibilizadas para um projeto Beanstalk, é possível que existam casos de utilização para os quais não exista uma configuração adequada [4][5]. </li>
+  <li>Falta de controlo detalhado – Embora existam muitas configurações padrão disponibilizadas para um projeto Beanstalk, é possível que existam casos de utilização para os quais não exista uma configuração adequada <a href="https://www.justaftermidnight247.com/insights/cloudformation-vs-elastic-beanstalk-aws-paas-and-iac-services"> [4]</a> <a href="https://data-flair.training/blogs/aws-elastic-beanstalk"> [5]</a>. </li>
 </ul>
   
 </div>
