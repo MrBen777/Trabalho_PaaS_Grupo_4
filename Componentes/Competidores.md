@@ -18,7 +18,7 @@ O Red Hat OpenShift é uma plataforma de aplicação de contentores multifacetad
 aplicações. 
 
 
-<b>CloudFoundry </b> 
+<b>Cloud Foundry </b> 
 
 Cloud Foundry é uma plataforma como serviço (PaaS) de código aberto onde os programadores podem construir, implementar, executar e escalar aplicações. Ao contrário de
 outros serviços de plataforma de nuvem, onde os utilizadores estão ligados a determinados fornecedores de nuvens (como a Amazon, Google ou Microsoft), o Cloud Foundry
