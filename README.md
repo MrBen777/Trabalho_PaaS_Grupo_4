@@ -25,5 +25,7 @@
   <hr width=20%>
   
   <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Conclus%C3%A3o.md">Conclusão</a></p>
+  <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Bibliografia.md">Bibliografia</a></p>
+  
 </div>
 
