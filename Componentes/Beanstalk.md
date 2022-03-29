@@ -5,8 +5,9 @@
 
 <p>Este serviço da AWS trata da parte da implementação, provisionamento, monitorização, escalabilidade automática e gestão da nossa aplicação. Em termos de implementação, podemos fazer upload e gerir diferentes versões da aplicação, e mudar entre elas em ambientes diferentes (por exemplo, desenvolvimento, teste, ambientes de produção). Além disso, quando implementamos a nossa aplicação, o Elastic Beanstalk provisiona as instâncias necessárias, em termos de capacidade de computação, os load balancers, auto-scaling e recursos de monitorização do funcionamento das nossas aplicações. Este último ponto é bastante importante, dado que quando temos a nossa aplicação a correr em produção, o Beanstalk faz verificações regulares de funcionamento das aplicações, de forma a garantir que a mesma está a correr, sendo que se não estiver, irá tentar encontrar o erro e resolvê-lo. Podemos, também, ter acesso às métricas de monitorização do Amazon CloudWatch (contagem de pedidos, uso do CPU, entre outros).</p>    
 
-
-<h3 align="center"> Componentes do Elastic Beanstalk </h3>
+<br>
+<h3> Componentes do Elastic Beanstalk </h3>
+<br>
 
 O Elastic Beanstalk possuí vários componentes essenciais, sendo eles: 
 <ul>
@@ -50,8 +51,8 @@ Os eventos dizem aos utilizadores o que se está a passar com os seus ambientes.
 </ul>
 
 A plataforma é a combinação de todos os componentes do AWS Beanstalk, um sistema operativo, runtime de uma linguagem de programação e um servidor web para correr a aplicação. Pode-se escolher a plataforma enquanto se cria a aplicação ou ambiente, sendo que não precisamos de a atualizar ou incluir correções de software, a AWS encarrega-se disso.  
-
-<h3 align="center">Vantagens</h3>
+<br>
+<h3>Vantagens</h3>
   
 <ul>
   <li>Preço acessível - O Beanstalk proporciona aos seus utilizadores infraestruturas de baixo custo, ou seja, paga-se apenas pelo que se usa e não há taxas escondidas.</li>
@@ -61,8 +62,8 @@ A plataforma é a combinação de todos os componentes do AWS Beanstalk, um sist
   <li>Custo – O Beanstalk não tem custos adicionais, apenas é necessário pagar pelos recursos que este disponibiliza. </li>
   <li>Flexibilidade - é possível gerir manualmente qualquer aspeto dos recursos proporcionados pelo Beanstalk. </li>
 </ul>
-
-<h3 align="center">Desvantagens</h3>
+<br>
+<h3>Desvantagens</h3>
   
 <ul>
   <li>Não é fácil diagnosticar falhas – O Beanstalk ao gerir tudo automaticamente, torna difícil determinar exatamente onde este errou. </li>
