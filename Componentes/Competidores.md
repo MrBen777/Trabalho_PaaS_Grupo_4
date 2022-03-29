@@ -15,7 +15,7 @@
 
 
 <b>Cloud Foundry </b> 
-<p>Cloud Foundry é uma plataforma como serviço (PaaS) de código aberto onde os programadores podem construir, implementar, executar e escalar aplicações. Ao contrário de outros serviços de plataforma de nuvem, onde os utilizadores estão ligados a determinados fornecedores de nuvens (como a Amazon, Google ou Microsoft), o Cloud Foundry está disponível como um pacote de software autónomo <a href="https://www.suse.com/suse-defines/definition/cloud-foundryt"> [9]</a>.  </p>
+<p>Cloud Foundry é uma plataforma como serviço (PaaS) de código aberto onde os programadores podem construir, implementar, executar e escalar aplicações. Ao contrário de outros serviços de plataforma de nuvem, onde os utilizadores estão ligados a determinados fornecedores de nuvens (como a Amazon, Google ou Microsoft), o Cloud Foundry está disponível como um pacote de software autónomo <a href="https://www.suse.com/suse-defines/definition/cloud-foundry"> [9]</a>.  </p>
 
 <b>GCP App Engine</b>
 <p>A App Engine é uma plataforma para o desenvolvimento e alojamento de aplicações web de forma escalável. Pode-se escolher entre várias linguagens populares, bibliotecas e frameworks para desenvolver as aplicações e depois deixar que a App Engine se encarregue de fornecer servidores e escalar as instâncias de aplicação com base na procura <a href="https://cloud.google.com/appengine/docs"> [10]</a>. </p>
