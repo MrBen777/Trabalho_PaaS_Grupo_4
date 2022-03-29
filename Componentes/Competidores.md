@@ -18,7 +18,7 @@
 <p>Cloud Foundry é uma plataforma como serviço (PaaS) de código aberto onde os programadores podem construir, implementar, executar e escalar aplicações. Ao contrário de outros serviços de plataforma de nuvem, onde os utilizadores estão ligados a determinados fornecedores de nuvens (como a Amazon, Google ou Microsoft), o Cloud Foundry está disponível como um pacote de software autónomo [9].  </p>
 
 <b>GCP App Engine</b>
-<p>A App Engine é uma plataforma para o desenvolvimento e alojamento de aplicações web de forma escalável. Pode-se escolher entre várias línguas populares, bibliotecas e frameworks para desenvolver as aplicações e depois deixar que a App Engine se encarregue de fornecer servidores e escalar as instâncias de aplicação com base na procura [10]. </p>
+<p>A App Engine é uma plataforma para o desenvolvimento e alojamento de aplicações web de forma escalável. Pode-se escolher entre várias linguagens populares, bibliotecas e frameworks para desenvolver as aplicações e depois deixar que a App Engine se encarregue de fornecer servidores e escalar as instâncias de aplicação com base na procura [10]. </p>
  
 <b>Azure App Service</b>
 <p> Azure App Service é um serviço baseado em HTTP para alojamento de aplicações web, REST APIs e mobile back ends. Pode se desenvolver em várias linguagens, seja .NET, .NET Core, Java, Ruby, Node.js, PHP ou Python. As aplicações correm e escalam com facilidade tanto em ambientes baseados em Windows como em Linux [11]. </p>
