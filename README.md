@@ -13,5 +13,5 @@
 <hr>
 
 <div align="center">
-<a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Resumo.md">Resumo</a>
+<a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Resumo.md">Resumo</a>
 </div>
