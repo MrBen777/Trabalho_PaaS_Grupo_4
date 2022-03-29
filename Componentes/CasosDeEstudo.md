@@ -32,7 +32,7 @@
 
 <p>A relação custo-eficácia dos serviços de TI é crítica para todas as empresas que trabalham em mercados acelerados. A Ividata desde que migrou para a AWS tem visto um aumento na agilidade operacional e poupança, relativamente aos custos.</p>  
 
-<p>Os servidores da Ividata, configurados através do AWS Elastic Beanstalk, são cerca de quatro vezes mais rentáveis do que a soluções de PaaS utilizadas anteriormente, o que teve um impacto importante e imediato na flexibilidade da empresa, sendo que agora as suas despesas são muito mais inferiores do que anteriormente  <a href="https://aws.amazon.com/solutions/case-studies/ividata"> [20]</a>.</p>  
+<p>Os servidores da Ividata, configurados através do AWS Elastic Beanstalk, são cerca de quatro vezes mais rentáveis do que as soluções de PaaS utilizadas anteriormente, o que teve um impacto importante e imediato na flexibilidade da empresa, sendo que agora as suas despesas são muito mais inferiores do que anteriormente  <a href="https://aws.amazon.com/solutions/case-studies/ividata"> [20]</a>.</p>  
   
 </div>
 
