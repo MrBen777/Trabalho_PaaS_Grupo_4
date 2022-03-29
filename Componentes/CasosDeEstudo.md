@@ -1,6 +1,5 @@
 <h2 align="center"> Casos de Estudo </h2>
 
-<br>
 <h3>Zillow</h3> 
 
 <div align="justify">
@@ -16,8 +15,7 @@
 <p>O AWS Elastic Beanstalk foi utilizado pela Zillow como um meio para criar e fornecer um ambiente de trabalho onde foi desenvolvida uma biblioteca de imagens em Python, capaz de executar código customizado. Devido às variações na necessidade de capacidade de ingestão de imagens, era necessário um sistema altamente escalável, consoante o necessário, sendo que o Elastic Beanstalk era a opção mais simples de o conseguir.</p>
 
 <p>Graças aos serviços da AWS a preocupação com a capacidade dos seus sistemas deixa de ser necessária. A Zillow agora possui a escalabilidade e o desempenho necessário para exibir aos seus utilizadores imagens de alta qualidade, algo fundamental para a uma experiência de utilizador de qualidade. O download e processamento de imagens pode ser escalado, de modo a atender a diferentes volumes de imagens recebidas ao longo do dia [2].</p>
-  
-<br>
+
 <h3>Ividata</h3> 
  
 <p>A Ividata é uma empresa de consultoria especializada em Big Data, com sede em Paris, fundada no final de 2013. Focando-se na inovação e investindo em investigação e desenvolvimento, a Ividata criou uma solução de análise de retalho chamada Ivizone que fornece aos comerciantes uma página web acessível por wi-fi, através da qual podem melhorar os seus esforços de marketing e apresentar ofertas altamente direcionadas aos seus consumidores. Para além do mencionado esta ferramenta também permite fazer o rastreio de vários dados, tal como; a contagem de visitantes, a duração de cada visita e o tráfico pedonal dentro e nas proximidades das lojas.</p> 
@@ -37,4 +35,3 @@
 <p>Os servidores da Ividata, configurados através do AWS Elastic Beanstalk, são cerca de quatro vezes mais rentáveis do que a soluções de PaaS utilizadas anteriormente, o que teve um impacto importante e imediato na flexibilidade da empresa, sendo que agora as suas despesas são muito mais inferiores do que anteriormente [3].</p>  
   
 </div>
-
