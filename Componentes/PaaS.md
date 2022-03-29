@@ -8,4 +8,5 @@
 <div align="center">
 <p>Anterior: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Introdução.md">Introdução<a> | Próximo: <a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Beanstalk.md">AWS Elastic Beanstalk</a></p>
 <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/README.md">Página Principal</a></p>
+<p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Bibliografia.md">Bibliografia<a></p>
 </div>
