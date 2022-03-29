@@ -13,6 +13,8 @@
 <hr>
 
 <div align="center">
-<p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Resumo.md">Resumo</a></p>
-<p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Introdução.md">Introdução</a></p>
+  <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Resumo.md">Resumo</a></p>
+  <p><a href="https://github.com/MrBen777/Trabalho_PaaS_Grupo_4/blob/main/Componentes/Introdução.md">Introdução</a></p>
+  <hr width=20%>
 </div>
+
